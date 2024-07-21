@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from 'uuid';
 import LiveScreen from '../Components/LiveScreen';
 import { BiSolidDownArrow, BiSolidUpArrow } from 'react-icons/bi';
 
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { CgProfile } from 'react-icons/cg';
 import { RiProfileFill } from 'react-icons/ri';
 import { FaBriefcase, FaFolderOpen, FaGraduationCap } from 'react-icons/fa';
@@ -15,7 +15,7 @@ function Resume({ resume, setResume }) {
 
   const {id} = useParams()
 
-
+const navigate = useNavigate()
 
   const form = useForm({
     defaultValues: {
@@ -123,6 +123,7 @@ function Resume({ resume, setResume }) {
         
         );
         setResume(posting);
+navigate("/")
         console.log(resume)
       } catch (error) {
         console.log(error);

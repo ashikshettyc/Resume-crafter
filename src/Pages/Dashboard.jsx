@@ -69,10 +69,11 @@ function Dashboard() {
                 </div>
                 <div className="p-4 border-t">
                   <h3 className="font-semibold text-gray-800">
-                    Resume No. {index + 1}
+                    {item.data.resume}
                   </h3>
                 </div>
               </Link>
+              
             ))
           ) : (
             <div>No resumes available</div> // Fallback UI
