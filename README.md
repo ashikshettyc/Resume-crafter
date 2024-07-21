@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/ashikshettyc/Resume-crafter
+- Live Site URL: https://vercel.com/ashik-shettys-projects/resume-crafter
 
 ## My process
 
@@ -44,5 +44,4 @@ was first time using react-hook-form and loved it to the most.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername]()
+- Website - https://vercel.com/ashik-shettys-projects/resume-crafter
