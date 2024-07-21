@@ -44,7 +44,7 @@ function Dashboard() {
             <CgFileAdd className="text-5xl text-pink-500 mb-2" />
             <span className="text-gray-700 font-medium">ADD RESUME</span>
           </div>
-          {profile.map((item, index) => (
+          {profile?.map((item, index) => (
             <Link
               to={`/edits/${item.id}`}
               key={item.id}
